@@ -1,0 +1,24 @@
+{
+  "name": "02",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "npx jest --coverage --config jest.config.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^24.0.0",
+    "@types/node": "^10.12.24",
+    "istanbul": "^0.4.5",
+    "jest": "^24.1.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "intern": "^4.4.1",
+    "remap-istanbul": "^0.13.0"
+  }
+}
